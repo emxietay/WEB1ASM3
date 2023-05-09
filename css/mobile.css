@@ -1,0 +1,47 @@
+@media screen and (max-width: 767px) {
+  img.avatar-img {
+    display: none;
+  }
+  section>.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: block;
+    padding: 10px 20px;    
+  }
+  .banner-name {
+  
+    font-size: 3.6rem;
+    top: 40%;
+    left: 50%;    
+  }
+  
+  /* navbar dàn xuống theo chiều dọc */
+  
+  #nav-bar a {
+    display: block;
+    text-align: left;
+  }
+ 
+  
+  /* #nav-bar .container {
+   display: flex;
+   flex-direction: column;
+   align-items: start;     
+  } */
+  #nav-bar .name {
+    display: none ;
+  }
+  .splitter {
+    border: none;
+    border-bottom: #d6c08d 1px solid;
+    ;
+  }
+
+  #project .container {
+    display: flex;
+   flex-direction: column;
+    gap: 5rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  
+}

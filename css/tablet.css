@@ -1,0 +1,47 @@
+@media screen and (min-width: 768px) and (max-width: 992px){
+  .line {
+   display: none;
+  }
+img.avatar-img {
+  display: none;
+}
+
+section>.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: block;
+  padding: 10px 20px;
+  
+}
+.banner-name {
+  
+  font-size: 3.6rem;
+  top: 40%;
+  left: 50%;
+  
+}
+
+#nav-bar .name {
+  display: none ;
+}
+
+  #project h3  {
+    font-size: 1.6rem;
+  }
+  #project  {
+    font-size: 1.4rem;
+  }
+  .project-role {
+    display: grid;
+    align-items: center;
+    justify-content:end;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 15px;
+    
+  
+  }
+  .project-role span:last-of-type {
+   grid-column: 2;
+  }
+ 
+}
